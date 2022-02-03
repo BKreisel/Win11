@@ -1,2 +1,3 @@
-# Win11
-Windows 11 Configuration
+# Win11 Configuration Script
+
+\#MakeWindowsBearableAgain
