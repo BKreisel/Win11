@@ -7,3 +7,6 @@ Set-ItemProperty -Path "HKCU:\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50
        It looks objectively worse in the center. 
 #>
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name 'TaskbarAl' -Value 0 -Type DWORD
+
+# Remove PrintHood Home Directory
+Remove-Item ~\PrintHood\ -Force
